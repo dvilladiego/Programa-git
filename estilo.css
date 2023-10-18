@@ -1,0 +1,516 @@
+/*pagina inicial*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    position: absolute;
+    width: 235px;
+    height: 680px;
+    background: #535455;
+    left: -240px;
+    transition: all 500ms linear;
+ 
+}
+
+#sidebar ul li{
+    color: rgb(23o, 230, 230, .9);
+    text-align: center;
+    padding:  15px 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(53, 4, 4, 0.89); 
+}
+
+#sidebar.active  {
+    left: 0;
+
+}
+
+.logo{
+    float: right;
+    position: relative;
+    bottom: 350px;
+    text-align: right;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 185px;
+    color: aqua;
+    position: relative;
+    left: 18px;
+}
+
+.content{
+    background-color: rgb(28, 29, 29);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    list-style: none;
+    width: 350px;
+    height: 0px;
+    padding: 340px;
+}
+
+.nombre{
+    float: right;
+    position: relative;
+    bottom: 230px; 
+    text-align: right;
+    width: 0px;
+    font-size: 30px;
+}
+
+.botones{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    height:800px;
+    line-height: 100px;
+}
+
+nav a{ 
+    text-align: center;
+    font-size: 18pxs;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: 0.2s;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: aqua;
+    background-color: rgb(247, 252, 252);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(241, 237, 233);
+
+}
+
+.frase{
+    text-align: center;
+    position: relative;
+    top: -390px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'bell mt', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgba(236, 212, 204, 0.918);
+    margin: 1px;
+}
+
+.new{
+    float: left;
+    position: relative;
+    top: -320px;
+    position: relative;
+    left: -30px;  
+}
+
+.genero{
+    display: flex;
+    float: left;
+    position: relative;
+    top: 5px;
+    position: relative;
+    left: -30px;
+}
+
+.realismo{
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    left: -40px;
+    background-color: black;
+    border-radius: 500px;
+    
+}
+
+.infantil{
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    right: -140px;
+    background-color: black;
+    border-radius: 500px;
+}
+
+.terror{
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    right: -335px; 
+    background-color: black;
+    border-radius: 500px;
+}
+
+.lateral{ 
+    position: relative;
+    left:  1030px ;
+    background-color: #535455 ;
+    width: 318px;
+    height:680px;
+    line-height: 100px;
+    top: -680px; 
+    overflow-x: hidden;
+}
+
+.Inicio{
+    text-align: center;
+    align-items: center;
+}
+
+.noticia{  
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    background-color: hsl(0, 3%, 7%);
+    color: azure;
+    width: 94% ;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.hora{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+    top: -80px;
+}
+
+.agregados{
+    font-size: 15px;
+    position: relative;
+    top: -80px;
+}
+
+.foto{
+    width: 600px;
+    height: 250px;
+    margin: 0 5px;
+    border-radius: 10px; 
+}
+
+.imagenes{
+   width: 770px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: -300px;
+   position: relative;
+   left: -92px;  
+}
+
+
+
+/* pagina de inicio de sesion*/
+
+.bloque{
+    background-color: rgb(28, 29, 29);
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+    align-content: center;
+    width: 900px;
+    height: 630px;
+    position: relative;
+    right: -17.2%;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.frase1{
+    position: relative;
+    top: -50px;
+    display: block;
+    font-size: 18px;
+    font-family: 'bell mt', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgba(236, 212, 204, 0.918);
+}
+
+.logo1{
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 185px;
+    height: 190px;
+    position: relative;
+    bottom: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color:  #535455;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:60px 60px 90px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -21px; 
+    position: relative;
+    top: -80px;
+}
+
+label{
+    font-size: 15px;
+    margin-bottom: 15px
+}
+
+
+input{
+    width: 335px;
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px ;
+    outline: none;
+    background-color: #535455;
+    position: relative;
+    left: 1px;
+}
+
+.btn{
+    width: 370px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #3616c5;
+    color: azure;
+    position: relative;
+    bottom: -10px;
+    text-align: center;
+}
+
+
+input::placeholder{
+    color: rgb(9, 158, 158);
+}
+
+.form-txt{
+    margin-bottom:30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a{
+    color: rgb(250, 250, 250);
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    bottom: -10px;
+}
+
+.cuenta{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/*pagina de registrarse*/
+
+.bloque2{
+    background-color: rgb(28, 29, 29);
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+    align-content: center;
+    width: 900px;
+    height: 865px;
+    position: relative;
+    right: -17.2%;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.frase2{
+    position: relative;
+    top: -50px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'bell mt', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgba(236, 212, 204, 0.918);
+}
+
+.logo2{
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 185px;
+    height: 190px;
+    position: relative;
+    bottom: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.input-group2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -21px;
+    position: relative;
+    top: -80px;
+}
+
+form .input-group i {
+    position: absolute;
+    margin-left: 18px;
+    top: 48px;
+}
+
+label{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 280px;
+    padding: 17px 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px ;
+    outline: none;
+    background-color: #535455;
+    position: relative;
+    left: 1px;
+    text-align: left;
+}
+
+.btn{
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #3616c5;
+    color: azure;
+    position: relative;
+    bottom: -10px;
+}
+
+input::placeholder{
+    color: rgb(246, 250, 250);
+    position: relative;
+    left: 1px;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 255px;
+    top: 20px;
+    cursor: pointer;
+    color: rgb(238, 238, 245);
+}
+
+#sidebar.toggle-btn span{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #1474d4 ;
+}
+
+/*iconos*/
+
+.fa-solid{
+    color: azure;
+    font-size: 100px;
+    position: relative;
+    right: 75px;
+    top: 45px;
+}
+
+.icono3 {
+    width: 14px;
+    color: rgb(180, 72, 72);
+    z-index: 10;
+    position: absolute;
+    margin-left: 19px;
+    position: relative;
+    top: 33px;
+}
+
+.icono4 {
+    width: 14px;
+    color: black;
+    z-index: 10;
+    position: absolute;
+    margin-left: 19px;
+    position: relative;
+    top: 33px;
+}
+
+.icono5 {
+    width: 16px;
+    color: black;
+    z-index: 10;
+    position: absolute;
+    margin-left: 19px;
+    position: relative;
+    top: 33px;
+}
+
+.icono9 {
+  width: 16px;
+  position: relative;
+  left: 10px;
+}
+
+.lateral2 {
+    position: relative;
+    left:  1008px ;
+    background-color: #535455 ;
+    width: 340px;
+    height:800px;
+    line-height: 100px;
+    top: -680px; 
+    overflow-x: hidden;
+}
+
+
+.logo20 {
+    height: 150px;
+    color: aqua;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+
